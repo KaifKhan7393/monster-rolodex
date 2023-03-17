@@ -1,0 +1,25 @@
+.card-container {
+  background: linear-gradient(-20deg, #0d9981 0%, #30dfd4 100%) no-repeat;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: all 0.3s ease-in-out;
+  width: 250px;
+}
+
+.card-container:hover {
+  transform: scale(1.1);
+}
+
+.monster-image {
+  max-width: 180px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.monster-name {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
